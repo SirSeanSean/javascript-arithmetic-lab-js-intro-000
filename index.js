@@ -29,3 +29,15 @@ function decrement(num)
   num -= 1;
   return num
 }
+
+function makeInt(string)
+{
+  var num = parseInt(string,10);
+  return num
+}
+
+function preserveDecimal(string)
+{
+  var num = parseFloat(string);
+  return num
+}
