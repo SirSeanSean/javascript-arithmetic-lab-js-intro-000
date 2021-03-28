@@ -17,3 +17,15 @@ function divide(x,y)
 {
   return x/y
 }
+
+function increment(num)
+{
+  num += 1;
+  return num
+}
+
+function decrement(num)
+{
+  num -= 1;
+  return num
+}
